@@ -1,0 +1,12 @@
+.idea
+.directory
+./.directory
+./*/.directory
+./*/*/.directory
+./*.pyc
+./*/.*pyc
+./*/*/*.pyc
+__pycache__
+./__pycache__
+./*/__pycache__
+./*/*/__pycache__
