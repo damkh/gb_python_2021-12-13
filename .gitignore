@@ -13,3 +13,4 @@ __pycache__
 test.py
 ./*/test.py
 ./dz_students
+/dz_students/
