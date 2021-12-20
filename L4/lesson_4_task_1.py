@@ -7,7 +7,7 @@ from sys import argv
 
 def calc_salary(f_work_hours, f_hourly_rate, f_bonus):
     salary = int(f_work_hours) * int(f_hourly_rate) + int(f_bonus)
-    print(f'Salary: {salary}')
+    print(f'Зарплата: {salary}')
 
 
 # параметрами по умолчанию
@@ -17,7 +17,7 @@ bonus = 3
 
 if len(argv) == 1:  # Вычисление с параметрами по умолчанию
     print(f'Вычисление с параметрами по умолчанию: '
-          f'work hours = {work_hours}, hourly rate = {hourly_rate}, bonus = {bonus}')
+          f'выработка в часах = {work_hours}, ставка в час = {hourly_rate}, премия = {bonus}')
     calc_salary(work_hours, hourly_rate, bonus)
 if len(argv) == 2:
     print('Недостаточно параметров')
