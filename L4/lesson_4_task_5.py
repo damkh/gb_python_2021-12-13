@@ -6,11 +6,7 @@
 from functools import reduce
 
 
-def num_multiply(a, b):
-    return a * b
-
-
-my_list = [num for num in range(100, 1001) if num % 2 == 0]
+my_list = [num for num in range(100, 1001, 2)]
 
 print(my_list)
-print(reduce(num_multiply, my_list))
+print(reduce(lambda x, y: x * y, my_list))
